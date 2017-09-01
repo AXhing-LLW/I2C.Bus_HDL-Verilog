@@ -1,0 +1,129 @@
+Quartus II
+Version 10.0 Build 218 06/27/2010 SJ Web Edition
+13
+1247
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+I2C_write
+# storage
+db|I2C_write.(0).cnf
+db|I2C_write.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+i2c_write.v
+5a3e985774f09c1ad7a8232b57f2f49
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+I2C_control
+# storage
+db|I2C_write.(1).cnf
+db|I2C_write.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+f:|users|llw|documents|i2c_control_hdl-verilog|i2c_control_hdl-verilog|i2c_control.v
+d5839ff4fd29f84a74cfeabf1e346a4
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+X_IDLE
+0
+PARAMETER_SIGNED_DEC
+DEF
+X_GO
+1
+PARAMETER_SIGNED_DEC
+DEF
+X_START
+2
+PARAMETER_SIGNED_DEC
+DEF
+X_WAIT
+3
+PARAMETER_SIGNED_DEC
+DEF
+X_SHIFT
+4
+PARAMETER_SIGNED_DEC
+DEF
+X_STOP
+5
+PARAMETER_SIGNED_DEC
+DEF
+X_FINAL
+6
+PARAMETER_SIGNED_DEC
+DEF
+X_END
+7
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+I2C_control:I2C_control_0
+}
+# macro_sequence
+
+# end
+# complete
+
