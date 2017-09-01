@@ -1,0 +1,2 @@
+萬一無法無法電路合成，
+請重新引入I2C_control.v(此功能為FML)。
